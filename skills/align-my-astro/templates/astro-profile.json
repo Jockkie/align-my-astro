@@ -1,0 +1,57 @@
+{
+  "_example": "Example only. Deliver the real profile to the user as a file.",
+  "schema": "align-my-astro/profile/v1",
+  "created": "2026-11-08",
+  "language": "en",
+  "name": "Example",
+  "birth": {
+    "date": "1985-02-10",
+    "time": "14:30",
+    "time_certainty": "birth certificate",
+    "place": "Rotterdam, Netherlands",
+    "lat": 51.92,
+    "lon": 4.48,
+    "tz": "Europe/Amsterdam"
+  },
+  "conventions": {
+    "tzolkin": "GMT 584283",
+    "chinese_year": "lunar new year"
+  },
+  "western": {
+    "sun": "Aquarius",
+    "moon": "Libra",
+    "ascendant": "Cancer",
+    "notes": ""
+  },
+  "tzolkin": {
+    "kin": "7 K'an",
+    "kiche": "K'at",
+    "trecena": "Etz'nab'"
+  },
+  "chinese": {
+    "zodiac": "Wood Rat (born before Lunar New Year, 20 February 1985)",
+    "bazi": "Yi Chou year, Wu Yin month, Geng Chen day, Gui Wei hour",
+    "day_master": "Geng (Metal)"
+  },
+  "echoes": [],
+  "tensions": [],
+  "dreams_consent": false,
+  "dreams": [],
+  "readings": [
+    {
+      "date": "2026-11-07",
+      "themes": [
+        "Moon moves into Scorpio late",
+        "3 Muluk: gratitude",
+        "Wood Rooster day"
+      ],
+      "question": ""
+    }
+  ],
+  "assumptions": [
+    {
+      "text": "Birth time 14:30 taken as exact",
+      "basis": "user said: from the birth certificate"
+    }
+  ]
+}

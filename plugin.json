@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "align-my-astro",
+  "version": "0.1.0",
+  "description": "Holistic daily reflection that connects Western astrology, the Maya Tzolk'in, Chinese astrology and your dreams into one reading of today and the past days. Reflection, not prediction.",
+  "author": {
+    "name": "Jockkie Studio",
+    "email": "info@jockkie.com",
+    "url": "https://www.jockkie.com"
+  },
+  "homepage": "https://www.jockkie.com",
+  "license": "MIT",
+  "repository": "https://github.com/Jockkie/align-my-astro"
+}

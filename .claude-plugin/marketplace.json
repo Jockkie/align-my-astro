@@ -1,0 +1,19 @@
+{
+  "name": "align-my-astro",
+  "owner": {
+    "name": "Jockkie Studio",
+    "email": "info@jockkie.com",
+    "url": "https://www.jockkie.com"
+  },
+  "metadata": {
+    "description": "Holistic daily reflection that connects Western astrology, the Maya Tzolk'in, Chinese astrology and your dreams into one reading of today and the past days. Reflection, not prediction."
+  },
+  "plugins": [
+    {
+      "name": "align-my-astro",
+      "source": "./",
+      "description": "Holistic daily reflection that connects Western astrology, the Maya Tzolk'in, Chinese astrology and your dreams into one reading of today and the past days. Reflection, not prediction.",
+      "version": "0.1.0"
+    }
+  ]
+}
