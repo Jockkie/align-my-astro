@@ -2,7 +2,7 @@
 
 # Align My Astro
 
-*Part of [Jockkie Studio's open-source skills](https://github.com/Jockkie/jockkie-studio). I do the geeking. You get the easy part.*
+*Part of [Jockkie Studio's](https://www.jockkie.com) open-source skills. I do the geeking. You get the easy part.*
 
 > **Version 0.1.0, beta.** Tested in Claude; built to the specification of the other platforms but not yet tested there. See [Platform status](#platform-status), and please [report what you find](https://github.com/Jockkie/align-my-astro/issues/new/choose).
 
@@ -21,7 +21,6 @@ The skill folder is `skills/align-my-astro`.
 /plugin marketplace add Jockkie/align-my-astro
 /plugin install align-my-astro@align-my-astro
 ```
-Want all five Jockkie Studio skills in one go? Use `/plugin marketplace add Jockkie/jockkie-studio` and then `/plugin install align-my-astro@jockkie-studio`.
 
 **Claude.ai**
 Zip the `skills/align-my-astro` folder and upload it in Claude's skills settings.
