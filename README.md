@@ -23,19 +23,22 @@ The skill folder is `skills/align-my-astro`.
 ```
 
 **Claude.ai**
-Zip the `skills/align-my-astro` folder and upload it in Claude's skills settings.
+Download [`align-my-astro.zip`](https://github.com/Jockkie/align-my-astro/raw/main/dist/align-my-astro.zip) and upload it in Claude's skills settings.
 
 **Hermes Agent (plugin)**
 This repository is also a portable [Agent Plugins](https://vercel.com/kb/guide/agent-plugins) package (`plugin.json`, `skills/`, `mcp.json`), which Hermes loads natively. Copy the repository into `~/.hermes/plugins/align-my-astro`, then `hermes plugins enable align-my-astro`. Skill only: copy `skills/align-my-astro` into `~/.hermes/skills/`.
 
 **ChatGPT (Business, Enterprise, Edu)**
-Zip the `skills/align-my-astro` folder and upload it under Skills, Create, Upload.
+Upload [`align-my-astro.zip`](https://github.com/Jockkie/align-my-astro/raw/main/dist/align-my-astro.zip) under Skills, Create, Upload.
 
 **OpenClaw**
 Copy `skills/align-my-astro` into `~/.openclaw/skills/` (or your workspace `skills/` folder) and start a new session.
 
 **Grok**
-Import the zipped `skills/align-my-astro` folder under Skills. For Grok Build, copy the folder into `~/.grok/skills/`.
+Import [`align-my-astro.zip`](https://github.com/Jockkie/align-my-astro/raw/main/dist/align-my-astro.zip) under Skills. For Grok Build, copy the folder into `~/.grok/skills/`.
+
+**Microsoft Copilot (Microsoft 365 Copilot, Premium)**
+Download [`align-my-astro.zip`](https://github.com/Jockkie/align-my-astro/raw/main/dist/align-my-astro.zip), with `SKILL.md` at the root. In Microsoft Copilot open Home, right-click Agents and choose More agents, then Add, Upload skill, and pick the zip. Turn on "Let Copilot use this skill automatically", or choose the skill under Agents and Skills when you start. Copilot Cowork reads the same format: put the unzipped folder in your OneDrive skills folder (`Documents/Cowork/skills/`).
 
 **GitHub Copilot (VS Code, Visual Studio, Copilot CLI, cloud agent)**
 Copy `skills/align-my-astro` into `~/.copilot/skills/` for all your projects, or into `.github/skills/` in one repository.
@@ -50,7 +53,9 @@ Copy `skills/align-my-astro` into the client's skills directory (for example `.a
 | Claude Code | Validated | The marketplace, manifest and hook pass `claude plugin validate`; the skill was tested in evaluation rounds with Claude models |
 | Claude.ai | Skill tested | The same `SKILL.md` as in the evaluations; the zip upload itself is not yet tested |
 | Hermes Agent | Untested | Built to the Agent Plugins specification |
-| ChatGPT, OpenClaw, Grok, GitHub Copilot | Untested | Built to the Agent Skills format |
+| Microsoft Copilot | Untested | Agent Skills upload (Premium). The interview and the method run; scripts only where Copilot runs code, and Monid and Flora are not connected there |
+| GitHub Copilot | Untested | Built to the Agent Skills format; it runs code, so the scripts work there, as in Claude Code |
+| ChatGPT, OpenClaw, Grok | Untested | Built to the Agent Skills format |
 | Codex, Cursor, Gemini CLI and others | Untested | Built to the Agent Skills format |
 
 The guard hook only runs in Claude Code. On other platforms, the visible self-check in the skill does that job. Tried it on an untested platform? [Tell us how it went](https://github.com/Jockkie/align-my-astro/issues/new/choose), whether it worked or not.
