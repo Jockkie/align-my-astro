@@ -13,7 +13,7 @@ Skills tell an AI agent what to do, and this one also runs scripts on your machi
 - No script makes a network call. You can check this yourself: none of them imports a network library.
 - The hook reads the transcript Claude Code hands it, prints a decision and exits. It does not store or send anything.
 - `astro_calc.py` uses `pyswisseph` for natal charts and transits only if you have installed it yourself. It is not bundled. Note that `pyswisseph` is licensed under the AGPL.
-- This skill uses no external tools. Nothing you share leaves the conversation.
+- This skill uses no external tools by default. Nothing you share leaves the conversation. The one optional exception is an illustrated day card through Flora: the Flora MCP server does nothing until you authenticate it with `/mcp`, and only today's sky goes into a prompt you have read and approved, never your name, birth data or dreams.
 
 ## Supported versions
 

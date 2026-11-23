@@ -10,7 +10,7 @@ A daily reflection skill that weaves Western astrology, the Maya Tzolk'in and Ch
 
 Start by saying something like "make my astro profile" or "what's my reading for today?".
 
-Calculations run locally: the Tzolk'in (GMT correlation), Chinese year and day pillar, sun sign and moon phase need only Python; the natal chart and transits use the optional `pyswisseph` package (AGPL-licensed Swiss Ephemeris, installed separately with `pip install pyswisseph`). Your name, birth data and dreams are never sent to external services.
+Calculations run locally: the Tzolk'in (GMT correlation), Chinese year and day pillar, sun sign and moon phase need only Python; the natal chart and transits use the optional `pyswisseph` package (AGPL-licensed Swiss Ephemeris, installed separately with `pip install pyswisseph`). Your name, birth data and dreams are never sent to external services, also not with the optional illustrated day card (see [Optional tools](#optional-tools)).
 
 ## Install
 
@@ -54,6 +54,14 @@ Copy `skills/align-my-astro` into the client's skills directory (for example `.a
 | Codex, Cursor, Gemini CLI and others | Untested | Built to the Agent Skills format |
 
 The guard hook only runs in Claude Code. On other platforms, the visible self-check in the skill does that job. Tried it on an untested platform? [Tell us how it went](https://github.com/Jockkie/align-my-astro/issues/new/choose), whether it worked or not.
+
+## Optional tools
+
+Everything works without any tool; the local day card is the default. If you want an illustrated card for the day:
+
+- **[Flora](https://refer.flora.ai/jock-oosterveer-htu6)**: an illustration of today's sky (moon phase, element, day sign, a mood word). You read the full prompt first; your name, birth data, chart and dreams are never sent. MCP: `https://mcp.flora.ai/mcp`, which does nothing until you authenticate it with `/mcp`. Always behind a quote and a spending cap you set.
+
+**Disclosure:** the Flora link is an affiliate link. Jockkie earns a commission when you create an account through it. The skill says so before it shares the link.
 
 ## How this skill keeps you from trusting a guess
 

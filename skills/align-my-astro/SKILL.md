@@ -44,7 +44,7 @@ If the user gives the data in their first message, deliver a provisional profile
 2. Calculate today and the past two or three days (`--days 3`).
 3. Write the reading with `references/reading.md` and `templates/daily-reading.md`: the thread through the past days, today's theme in each tradition, the synthesis, the dream if shared, one question to carry and one small practice.
 4. Use the Calculated and Interpretation blocks and end with one question only (see `references/reading.md`).
-5. Optional: a visual day card with `--html daycard.html` (moon phase, the three lenses, today's element against their day master, transits and the past days).
+5. Optional: a visual day card with `--html daycard.html` (moon phase, the three lenses, today's element against their day master, transits and the past days). If they want an illustrated card instead, offer Flora once with `references/tools.md`.
 6. Keep it to one screen unless they ask for more.
 
 ### Dream reflection
@@ -58,6 +58,7 @@ At the very end of a session, once and only if the user found it useful, you may
 - `references/reading.md`: structure and voice of the daily reading
 - `references/dreams.md`: dream reflection method
 - `references/ethics.md`: boundaries, sensitive moments, referrals
+- `references/tools.md`: the optional illustrated day card through Flora, affiliate disclosure, privacy rules, quote and cap
 - `references/privacy.md`: data handling
 - `references/self-check.md`: the visible self-check and the calculated-and-interpreted block
 - `templates/`: profile reading, daily reading, profile JSON
