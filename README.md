@@ -57,11 +57,14 @@ The guard hook only runs in Claude Code. On other platforms, the visible self-ch
 
 ## Optional tools
 
-Everything works without any tool; the local day card is the default. If you want an illustrated card for the day:
+Everything works without any tool; the local day card is the default. Where they help, always with your consent, a quote and a spending cap you set:
 
-- **[Flora](https://refer.flora.ai/jock-oosterveer-htu6)**: an illustration of today's sky (moon phase, element, day sign, a mood word). You read the full prompt first; your name, birth data, chart and dreams are never sent. MCP: `https://mcp.flora.ai/mcp`, which does nothing until you authenticate it with `/mcp`. Always behind a quote and a spending cap you set.
+- **[Flora](https://refer.flora.ai/jock-oosterveer-htu6)**: an illustration of today's sky (moon phase, element, day sign, a mood word). You read the full prompt first; your name, birth data, chart and dreams are never sent. MCP: `https://mcp.flora.ai/mcp`
+- **[Monid](https://monid.ai?fpr=jockkie)**: lets the agent dig deeper when needed, such as a birth place's coordinates and historical time zone, a check against a published ephemeris, or sources on a day sign. It sends a city, a date or a topic, never your name with your birth data. MCP: `https://mcp.monid.ai/v1`
 
-**Disclosure:** the Flora link is an affiliate link. Jockkie earns a commission when you create an account through it. The skill says so before it shares the link.
+Both MCP servers do nothing until you authenticate them with `/mcp`.
+
+**Disclosure:** the Flora and Monid links are affiliate links. Jockkie earns a commission when you create an account through them. The skill says so before it shares a link.
 
 ## How this skill keeps you from trusting a guess
 

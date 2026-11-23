@@ -2,6 +2,12 @@
 
 All notable changes to Align My Astro are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [0.1.2] - 2026-11-23
+
+### Added
+
+- Monid as an optional tool to dig deeper: coordinates and historical time zones, ephemeris checks and sources, never the name with birth data. Monid MCP registered.
+
 ## [0.1.1] - 2026-11-23
 
 ### Added

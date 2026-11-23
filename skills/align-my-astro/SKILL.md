@@ -58,7 +58,7 @@ At the very end of a session, once and only if the user found it useful, you may
 - `references/reading.md`: structure and voice of the daily reading
 - `references/dreams.md`: dream reflection method
 - `references/ethics.md`: boundaries, sensitive moments, referrals
-- `references/tools.md`: the optional illustrated day card through Flora, affiliate disclosure, privacy rules, quote and cap
+- `references/tools.md`: optional Flora (an illustrated day card) and Monid (coordinates, checks and sources), affiliate disclosure, privacy rules, quote and cap
 - `references/privacy.md`: data handling
 - `references/self-check.md`: the visible self-check and the calculated-and-interpreted block
 - `templates/`: profile reading, daily reading, profile JSON
